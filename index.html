@@ -8,41 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <aside><img src="image/fresas.png" alt="planta" class="fresas"></aside>
+    
     <header>
         <a href="" target="_blank" class="logo">
             <img src="" alt="">
             <h2 class="Crop">Cropdriver</h2>
-
         </a>  
         <nav> <!-- esto es un bloque -->
             <a href="" class="nav-link">Cultivos</a>
-            <a href="" class="nav-link">Riego</a>
             <a href="" class="nav-link">Busqueda</a>
             <a href="" class="nav-link">Perfil</a>
         </nav> <!-- esto es un bloque -->
     </header>
 
     <article>
+        <aside><img src="image/fresas.png" alt="planta" class="fresas"></aside>
         <p class="parrafo2">
-            Nombre científico: Solanum lycopersicum
-            Familia:Solanaceae
-            Especie:Solanum lycopersicum; L.,​ Sp. Pl., vol. 1, p. 185, 1753, non Lam., Tabl. Encycl., 2: 17, 1794
-            Clase: Magnoliopsida
-            División: Magnoliophyta</p>
+            Nombre científico: Solanum lycopersicum <br>
+            Familia:Solanaceae <br>
+            Especie:Solanum lycopersicum; <br> 
+            Clase: Magnoliopsida <br>
+            División: Magnoliophyta
+        </p>
     </article>
 
-    <article class="monitores">
-        <h3>Capacidad del tanque</h3>
-    <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665115"></iframe>
-    <iframe width="450" height="260" style="border: none" src="https://thingspeak.com/channels/2161074/widgets/665125"></iframe>
-    <h3>Humedad del suelo</h3>
-    <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665121"></iframe>
-    <h3>Humedad del ambiente</h3>
-    <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665122"></iframe>
-    <h3>Temperatura del ambiente</h3>
-    <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665123"></iframe>
-    </article>
-    
+    <main class="monitores">
+        <div class="monitor-group">
+            <div class="monitor">
+                <h3>Capacidad del tanque</h3>
+                <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665115"></iframe>
+            </div>
+            <div class="monitor">
+                <h3>Humedad del suelo</h3>
+                <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665121"></iframe>
+            </div>
+        </div>
+        <div class="monitor-group">
+            <div class="monitor">
+                <h3>Humedad del ambiente</h3>
+                <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665122"></iframe>
+            </div>
+            <div class="monitor">
+                <h3>Temperatura del ambiente</h3>
+                <iframe width="450" height="260" style="border: none;" src="https://thingspeak.com/channels/2161074/widgets/665123"></iframe>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
